@@ -13,6 +13,7 @@ import {
   CardFooter,
   Title,
   Description,
+  Annotation,
 } from './styles';
 
 export default function Main() {
@@ -32,7 +33,11 @@ export default function Main() {
             <Description>R$ 197.611,65</Description>
           </CardContent>
 
-          <CardFooter />
+          <CardFooter>
+            <Annotation>
+              Transferência de R$ 30,00 recebida de Thadeu Munhóz Cesário hoje às 06:00;
+            </Annotation>
+          </CardFooter>
         </Card>
       </Content>
 
